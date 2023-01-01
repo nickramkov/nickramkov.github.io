@@ -1,0 +1,65 @@
+html {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Koulen, serif;
+    color: white;
+    background: linear-gradient(black, 85%, yellow);
+    margin: 0;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(black 63%, yellow 37%);
+    padding: 10px 15px 10px 15px;
+}
+
+h1 {
+    font-family: "Aguafina Script", cursive;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-align: center;
+    background-color: yellow;
+    background-image: linear-gradient(yellow, 70%, black);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 20px 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+p {
+    margin: 19px 0;
+}
+
+p, li {
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 2;
+    color: black;
+}
+
+img {
+    width: 480px;
+    height: 270px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+.wrapper {
+    background-color: yellow;
+    background-image: linear-gradient(yellow 50%, black 50%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
